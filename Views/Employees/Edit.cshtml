@@ -1,0 +1,145 @@
+﻿@model SmartAttendanceSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EmployeeId" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <select asp-for="UserID" class="form-control" asp-items="ViewBag.UserID"></select>
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <input asp-for="Department" class="form-control" />
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Position" class="control-label"></label>
+                <input asp-for="Position" class="form-control" />
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HireDate" class="control-label"></label>
+                <input asp-for="HireDate" class="form-control" />
+                <span asp-validation-for="HireDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="imageFiles">Select Images:</label>
+                <input type="file" name="imageFiles" multiple class="form-control" />
+            </div>
+            <h4>Take a Picture</h4>
+            <div class="form-group">
+                <label for="webcam">Webcam Capture:</label>
+                <video id="webcam" width="320" height="240" autoplay></video>
+                <button id="captureButton" type="button" class="btn btn-secondary">Capture</button>
+                <div id="capturedImages"></div>
+            </div>
+            <h4>Existing Profile Pictures</h4>
+            <div>
+                @if (Model.EmployeePhoto != null && Model.EmployeePhoto.Count > 0)
+                {
+                    <ul id="existingPhotos">
+                        @foreach (var photo in Model.EmployeePhoto)
+                        {
+                            <li>
+                                <img src="@Url.Content("~/images/" + photo.Employee.User.Username + "/" + photo.ImageURL)" alt="Profile Picture" style="max-width: 200px;" />
+                                <a asp-controller="EmployeePhotoes" asp-action="Delete" asp-route-id="@photo.Id">Delete Photo</a>
+                            </li>
+                            <br />
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>No profile pictures available.</p>
+                }
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        const video = document.getElementById('webcam');
+        const captureButton = document.getElementById('captureButton');
+        const capturedImagesDiv = document.getElementById('capturedImages');
+        let capturedImages = [];
+
+        // Start video stream
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                video.srcObject = stream;
+            })
+            .catch(err => console.error('Error accessing webcam: ', err));
+
+        captureButton.addEventListener('click', () => {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            const img = document.createElement('img');
+            img.src = canvas.toDataURL('image/png');
+            img.style.maxWidth = '100px';
+            img.style.margin = '5px';
+
+            capturedImages.push(canvas.toDataURL('image/png'));
+            capturedImagesDiv.appendChild(img);
+
+            if (capturedImages.length >= 15) {
+                alert('You can only capture up to 15 images.');
+                captureButton.disabled = true;
+            }
+        });
+
+        // Include captured images in form submission
+        document.querySelector('form').addEventListener('submit', function () {
+            const base64ImagesInput = document.createElement('input');
+            base64ImagesInput.type = 'hidden';
+            base64ImagesInput.name = 'base64Images';
+            base64ImagesInput.value = JSON.stringify(capturedImages);
+            this.appendChild(base64ImagesInput);
+        });
+    </script>
+}

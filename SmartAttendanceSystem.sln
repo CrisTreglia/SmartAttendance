@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAttendanceSystem", "SmartAttendanceSystem.csproj", "{5F349FD1-1406-409C-B1C2-CD786A29C058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F349FD1-1406-409C-B1C2-CD786A29C058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F349FD1-1406-409C-B1C2-CD786A29C058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F349FD1-1406-409C-B1C2-CD786A29C058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F349FD1-1406-409C-B1C2-CD786A29C058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F770E8F-02B1-4520-B885-32F3FCF350F8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SmartAttendanceSystem
+build_property.RootNamespace = SmartAttendanceSystem
+build_property.ProjectDir = C:\SoftwareDevelopment\SmartAttendanceSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\SoftwareDevelopment\SmartAttendanceSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Attendances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Attendances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Attendances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Attendances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Attendances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/EmployeePhotoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQaG90b2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/EmployeePhotoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQaG90b2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/EmployeePhotoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQaG90b2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/EmployeePhotoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQaG90b2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/EmployeePhotoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQaG90b2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Profiles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Profiles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Profiles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Profiles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Profiles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SoftwareDevelopment/SmartAttendanceSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-czj5cekchm
